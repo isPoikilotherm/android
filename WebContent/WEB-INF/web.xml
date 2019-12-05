@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>andriod</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>  
+    <servlet-name>LoginServlet</servlet-name>  
+    <servlet-class>yang.servlet.LoginServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LoginServlet</servlet-name>  
+    <url-pattern>/login</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>RegisterServlet</servlet-name>  
+    <servlet-class>yang.servlet.RegisterServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>RegisterServlet</servlet-name>  
+    <url-pattern>/register</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>SaveProjectServlet</servlet-name>  
+    <servlet-class>yang.servlet.SaveProjectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SaveProjectServlet</servlet-name>  
+    <url-pattern>/saveproject</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>FindUserIDServlet</servlet-name>  
+    <servlet-class>yang.servlet.FindUserIDServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>FindUserIDServlet</servlet-name>  
+    <url-pattern>/findid</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>GetViewProjectServlet</servlet-name>  
+    <servlet-class>yang.servlet.GetViewProjectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>GetViewProjectServlet</servlet-name>  
+    <url-pattern>/getview</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>AddProjectServlet</servlet-name>  
+    <servlet-class>yang.servlet.AddProjectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddProjectServlet</servlet-name>  
+    <url-pattern>/addproject</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>SelectprojectbynameServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectprojectbynameServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectprojectbynameServlet</servlet-name>  
+    <url-pattern>/selectprojectbyname</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>AddOneselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.AddOneselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddOneselectServlet</servlet-name>  
+    <url-pattern>/addoneselect</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>SelectOneQuestionByQuestionIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectOneQuestionByQuestionIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectOneQuestionByQuestionIdServlet</servlet-name>  
+    <url-pattern>/selectoneselectbyquestionid</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectOneQuestionByProjectIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectOneQuestionByProjectIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectOneQuestionByProjectIdServlet</servlet-name>  
+    <url-pattern>/selectoneselectbyprojectid</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>ModifyPswServlet</servlet-name>  
+    <servlet-class>yang.servlet.ModifyPswServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>ModifyPswServlet</servlet-name>  
+    <url-pattern>/modifypsw</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>AddManyselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.AddManyselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddManyselectServlet</servlet-name>  
+    <url-pattern>/addmanyselect</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectManyQuestionByProjectIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectManyQuestionByProjectIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectManyQuestionByProjectIdServlet</servlet-name>  
+    <url-pattern>/selectmanyselectbyprojectid</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>SelectManyQuestionByQuestionIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectManyQuestionByQuestionIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectManyQuestionByQuestionIdServlet</servlet-name>  
+    <url-pattern>/selectmanyselectbyquestionid</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>AddScoringServlet</servlet-name>  
+    <servlet-class>yang.servlet.AddScoringServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddScoringServlet</servlet-name>  
+    <url-pattern>/addscoring</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectScoringByProjectIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectScoringByProjectIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectScoringByProjectIdServlet</servlet-name>  
+    <url-pattern>/selectscoringbyprojectid</url-pattern>  
+  </servlet-mapping>
+  
+  
+    <servlet>  
+    <servlet-name>AddShortanswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.AddShortanswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>AddShortanswerServlet</servlet-name>  
+    <url-pattern>/addshortanswer</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectShortanswerByProjectIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectShortanswerByProjectIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectShortanswerByProjectIdServlet</servlet-name>  
+    <url-pattern>/selectshortanswerbyprojectid</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>DeleteProjectbyIdServlet</servlet-name>  
+    <servlet-class>yang.servlet.DeleteProjectbyIdServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteProjectbyIdServlet</servlet-name>  
+    <url-pattern>/deleteprojectbyid</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>UpdateProjectServlet</servlet-name>  
+    <servlet-class>yang.servlet.UpdateProjectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UpdateProjectServlet</servlet-name>  
+    <url-pattern>/updateproject</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>DeleteOneselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.DeleteOneselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteOneselectServlet</servlet-name>  
+    <url-pattern>/deleteoneselect</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>UpdateOneselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.UpdateOneselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UpdateOneselectServlet</servlet-name>  
+    <url-pattern>/updateoneselect</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>DeleteManyselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.DeleteManyselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteManyselectServlet</servlet-name>  
+    <url-pattern>/deletemanyselect</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>UpdateManyselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.UpdateManyselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UpdateManyselectServlet</servlet-name>  
+    <url-pattern>/updatemanyselect</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>DeleteScoringServlet</servlet-name>  
+    <servlet-class>yang.servlet.DeleteScoringServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteScoringServlet</servlet-name>  
+    <url-pattern>/deletescoring</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>UpdateScoringServlet</servlet-name>  
+    <servlet-class>yang.servlet.UpdateScoringServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UpdateScoringServlet</servlet-name>  
+    <url-pattern>/updatescoring</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>DeleteShortanswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.DeleteShortanswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteShortanswerServlet</servlet-name>  
+    <url-pattern>/deleteshortanswer</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>UpdateShortanswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.UpdateShortanswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UpdateShortanswerServlet</servlet-name>  
+    <url-pattern>/updateshortanswer</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>SelectOneselectAnswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectOneselectAnswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectOneselectAnswerServlet</servlet-name>  
+    <url-pattern>/selectoneselectanswer</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectManyselectAnswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectManyselectAnswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectManyselectAnswerServlet</servlet-name>  
+    <url-pattern>/selectmanyselectanswer</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectScoringAnswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectScoringAnswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectScoringAnswerServlet</servlet-name>  
+    <url-pattern>/selectscoringanswer</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectShortanswerAnswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectShortanswerAnswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectShortanswerAnswerServlet</servlet-name>  
+    <url-pattern>/selectshortanswersnswer</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>SelectTemplateServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectTemplateServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectTemplateServlet</servlet-name>  
+    <url-pattern>/selecttemplate</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectTemplateOneselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectTemplateOneselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectTemplateOneselectServlet</servlet-name>  
+    <url-pattern>/selecttemplateoneselect</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectTemplateManyselectServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectTemplateManyselectServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectTemplateManyselectServlet</servlet-name>  
+    <url-pattern>/selecttemplatemanyselect</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>SelectTemplateScoringServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectTemplateScoringServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectTemplateScoringServlet</servlet-name>  
+    <url-pattern>/selecttemplatescoring</url-pattern>  
+  </servlet-mapping>
+  
+    <servlet>  
+    <servlet-name>SelectTemplateShortanswerServlet</servlet-name>  
+    <servlet-class>yang.servlet.SelectTemplateShortanswerServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SelectTemplateShortanswerServlet</servlet-name>  
+    <url-pattern>/selecttemplateshortanswer</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>UseTemplateServlet</servlet-name>  
+    <servlet-class>yang.servlet.UseTemplateServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>UseTemplateServlet</servlet-name>  
+    <url-pattern>/usetemplate</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>QuestionnaireServlet</servlet-name>  
+    <servlet-class>yang.servlet.QuestionnaireServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>QuestionnaireServlet</servlet-name>  
+    <url-pattern>/questionnaire</url-pattern>  
+  </servlet-mapping>
+  
+  
+   <servlet>  
+    <servlet-name>SaveResultServlet</servlet-name>  
+    <servlet-class>yang.servlet.SaveResultServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>SaveResultServlet</servlet-name>  
+    <url-pattern>/saveresult</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>GetPetNameServlet</servlet-name>  
+    <servlet-class>yang.servlet.GetPetNameServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>GetPetNameServlet</servlet-name>  
+    <url-pattern>/getpetname</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>ModifyPetNameServlet</servlet-name>  
+    <servlet-class>yang.servlet.ModifyPetNameServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>ModifyPetNameServlet</servlet-name>  
+    <url-pattern>/modifypetname</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>DeleteUserServlet</servlet-name>  
+    <servlet-class>yang.servlet.DeleteUserServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DeleteUserServlet</servlet-name>  
+    <url-pattern>/deleteuser</url-pattern>  
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</web-app>
